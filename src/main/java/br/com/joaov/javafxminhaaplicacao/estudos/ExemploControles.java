@@ -1,4 +1,4 @@
-package br.com.joaov.javafxminhaaplicacao;
+package br.com.joaov.javafxminhaaplicacao.estudos;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;

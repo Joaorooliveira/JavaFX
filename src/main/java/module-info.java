@@ -7,4 +7,6 @@ module br.com.joaov.javafxminhaaplicacao {
 
     opens br.com.joaov.javafxminhaaplicacao to javafx.fxml;
     exports br.com.joaov.javafxminhaaplicacao;
+    exports br.com.joaov.javafxminhaaplicacao.estudos;
+    opens br.com.joaov.javafxminhaaplicacao.estudos to javafx.fxml;
 }
