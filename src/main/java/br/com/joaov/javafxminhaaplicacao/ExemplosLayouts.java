@@ -19,7 +19,6 @@ public class ExemplosLayouts extends Application {
         Button botao2 = new Button("Botao 2");
         Button botao3 = new Button("Botao 3");
         Button botao4 = new Button("Botao 4");
-        Button botao5 = new Button("Botao 5");
 
         HBox hBox = new HBox(botao1,botao2);
         hBox.setAlignment(Pos.CENTER_RIGHT);
@@ -38,6 +37,7 @@ public class ExemplosLayouts extends Application {
     }
 
     public static void main(String[] args) {
+
         launch(args);
     }
 }
