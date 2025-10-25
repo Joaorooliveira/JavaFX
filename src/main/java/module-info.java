@@ -4,6 +4,7 @@ module br.com.joaov.javafxminhaaplicacao {
 
     requires org.controlsfx.controls;
     requires java.desktop;
+    requires javafx.media;
 
     opens br.com.joaov.javafxminhaaplicacao to javafx.fxml;
     exports br.com.joaov.javafxminhaaplicacao;
