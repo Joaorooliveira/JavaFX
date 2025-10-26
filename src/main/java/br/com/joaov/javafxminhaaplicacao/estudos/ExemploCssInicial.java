@@ -10,16 +10,19 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class ExemploControles extends Application {
+public class ExemploCssInicial extends Application {
     @Override
     public void start(Stage palco) throws Exception {
 
         Label label = new Label("Ola, mundo! Sou uma etiqueta (label).");
+        label.setStyle("-fx-font-family: 'System'; -fx-font-size: 14px; -fx-font-style:  italic;-fx-font-weight: bold;");
 
         Button botao = new Button("Clique aqui");
+        botao.setStyle("-fx-font-family: 'Verdana'; -fx-font-size: 12px;");
 
         TextField campoTexto = new TextField();
-
+//        campoTexto.setStyle("-fx-font-family: 'Courier New'; -fx-font-size:
+//                16px;");
         VBox layout = new VBox(label,botao, campoTexto);
         layout.setAlignment(Pos.CENTER);
 
