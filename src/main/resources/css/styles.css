@@ -3,14 +3,24 @@
     -fx-font-size: 14px;
     -fx-font-style: italic;
     -fx-font-weight: bold;
+
+    -fx-background-color: blue; /* ou #0000FF */
+    -fx-text-fill: pink
 }
 
 .botao{
     -fx-font-family: 'Verdana';
     -fx-font-size: 12px;
+
+    /* equivalente à (Red, Green, Blue, % Transparência) */
+    -fx-background-color: rgba(255, 0, 0, 0.5);
+    -fx-text-fill: white;
 }
 
 .campoTexto{
     -fx-font-family: 'Courier New';
     -fx-font-size: 16px;
+
+    -fx-background-color: green;
+    -fx-text-fill: red;
 }
