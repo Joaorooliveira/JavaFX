@@ -6,6 +6,7 @@ module br.com.joaov.javafxminhaaplicacao {
     requires java.desktop;
     requires javafx.media;
     requires javafx.web;
+    requires javafx.graphics;
 
     opens br.com.joaov.javafxminhaaplicacao to javafx.fxml;
     exports br.com.joaov.javafxminhaaplicacao;
