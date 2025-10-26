@@ -15,8 +15,8 @@ public class ExemploCssInicial extends Application {
     public void start(Stage palco) throws Exception {
 
         Label label = new Label("Ola, mundo! Sou uma etiqueta (label).");
-        label.setStyle("-fx-font-family: 'System'; -fx-font-size: 14px; -fx-font-style:  italic;-fx-font-weight: bold;");
-
+        //label.setStyle("-fx-font-family: 'System'; -fx-font-size: 14px; -fx-font-style:  italic;-fx-font-weight: bold;");
+        label.setStyle(" -fx-background-color: blue; -fx-text-fill: pink");
         Button botao = new Button("Clique aqui");
         botao.setStyle("-fx-font-family: 'Verdana'; -fx-font-size: 12px;");
 
